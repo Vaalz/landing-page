@@ -1,0 +1,21 @@
+{
+  "name": "website-kenang",
+  "version": "1.0.0",
+  "description": "Saya ingin membuat Landing Page",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "postcss": "^8.0.0",
+    "autoprefixer": "^10.0.0"
+  },
+  "main": "tailwind.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
